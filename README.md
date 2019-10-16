@@ -1,6 +1,6 @@
  # Criar Projeto Java EE + JSF + Primefaces + Maven
 ## Introdução
- > por: Roberto Danilo de Sousa Amoras às 20:20hs - 06/10/2019 - 22 anos, Desenvolvedor Junior, apaixonado por técnologias, entusiasta por querer aprender e inovar, e sim o futuro deste planeta vão pertencer às Skynets caso não tenhamos cuidados em conduzir e > treinar as inteligências artificiais. 
+ > por: Roberto Danilo de Sousa Amoras às 20:20hs - 06/10/2019 - 22 anos, Desenvolvedor Junior, apaixonado por técnologias, entusiasta por querer aprender e inovar, e sim o futuro deste planeta vão pertencer às Skynets caso não tenhamos cuidados em conduzir e  treinar as inteligências artificiais. 
 
  Aprenda a criar um projeto simples do zero com os seguintes passos aplicados nesse tutorial elaborado por mim e pelo desenvolvedor **Igor Felipe Catro**. <br/>
  **Obs:** Antes de começar o tutorial, primeiramente sua máquina deve estar com o java instalado, com a sua variável Path configurada com o devido sistema operacional, uma IDE que neste tutorial vamos utilizar o Eclipse e o Tomcat 7 confgurado com o Eclipse e sim, relaxa, beba uma água que vamos explicar como configurar tanto no sistema operacional Windows quanto no Linux. 
@@ -21,6 +21,7 @@ com o JAVA_HOME adcionado, insira-o no Path apontando o diretório da pasta bin:
 ## Configuração Linux
 
 Utilizando o Linux Mint, baseada em Ubuntu para poder instalar o Java 8, primeiramente baixe o [JAVA](https://www.oracle.com/br/java/) (Neste tutorial utilizamos o JAVA 8), em seguida configure sua variável de ambiente JAVA_HOME e o PATH no diretório do .bashrc:
+
 (Neste exemplo o arquivo java está no diretório usr/lib/jvm/java-11-openjdk-amd64)
 
 ![Foto Java Home Linux](img/img15.jpeg)
@@ -42,15 +43,16 @@ Selecione o diretório aonde você armazenou o TomCat:
 
 ![Foto Tom Cat 2](img/img17.png)
 
-Finalize a Configuração apertando em Finish
+Finalize a Configuração apertando em Finish.
 
 ![Foto Tom Cat 3](img/img18.png)
 
-Feito isso, crie um novo projeto Maven, vá para aba **File** ou **Alt+Shift+N**, e crie um **Maven Project** 
+Feito isso, crie um novo projeto Maven, vá para aba **File** ou **Alt+Shift+N**, e crie um **Maven Project** .
 
 ![Foto New Project](img/img06.png)
 
 Na janela seguinte selecione as seguintes opções: **Create a simple project(Skip archetype selec)** e **Use default workspace location**.
+
 **Obs:** caso queira armazenar o projeto em um outro diretório, basta adcionar um novo acessando a opção **browse**.
 
 ![Foto Configuração Projeto](img/img07.png)
