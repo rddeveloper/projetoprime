@@ -15,7 +15,7 @@ Utilizando o Windows versão 10,  primeiramente baixe o [JAVA](https://www.oracl
 
 com o JAVA_HOME adcionado, insira-o no Path apontando o diretório da pasta bin:
 
-<img src="img/img05.png" alt="Image 05" height="360" width="700" />
+![Foto PATH](img/img05.png)
 
 
 ## Configuração Linux
@@ -23,12 +23,11 @@ com o JAVA_HOME adcionado, insira-o no Path apontando o diretório da pasta bin:
 Utilizando o Linux Mint, baseada em Ubuntu para poder instalar o Java 8, primeiramente baixe o [JAVA](https://www.oracle.com/br/java/) (Neste tutorial utilizamos o JAVA 8), em seguida configure sua variável de ambiente JAVA_HOME e o PATH no diretório do .bashrc:
 (Neste exemplo o arquivo java está no diretório usr/lib/jvm/java-11-openjdk-amd64)
 
-<img src="img/img15.jpeg" alt="Image 05" height="360" width="700" />
-
+![Foto Java Home Linux](img/img15.jpeg)
 
 ## Criar projeto 
 
-**Agora sim**. Com o sistema operacional configurado com o Java vamos criar nosso projeto utilizando a IDE Visual Studio Code ou o Eclipse EE.
+**Agora sim**. Com o sistema operacional configurado com o Java vamos criar nosso projeto utilizando a IDE Eclipse EE.
 
 ### Eclipse
 
@@ -36,29 +35,29 @@ Primeiramente você precisa baixar o [Eclipse EE](https://www.eclipse.org/mars/)
 
 Agora configure o [TomCat 7](http://tomcat.apache.org/) no eclipse: Vá em **new** e **Server**: 
 
-<img src="img/img16.png" alt="Image 16" height="360" width="700" />
+![Foto Tom Cat](img/img16.png)
+
 
 Selecione o diretório aonde você armazenou o TomCat:
 
-<img src="img/img17.png" alt="Image 16" height="360" width="700" />
+![Foto Tom Cat 2](img/img17.png)
 
 Finalize a Configuração apertando em Finish
 
-<img src="img/img18.png" alt="Image 16" height="360" width="700" />
-
+![Foto Tom Cat 3](img/img18.png)
 
 Feito isso, crie um novo projeto Maven, vá para aba **File** ou **Alt+Shift+N**, e crie um **Maven Project** 
 
-<img src="img/img06.png" alt="Image 06" height="360" width="700" />
+![Foto New Project](img/img06.png)
 
 Na janela seguinte selecione as seguintes opções: **Create a simple project(Skip archetype selec)** e **Use default workspace location**.
 **Obs:** caso queira armazenar o projeto em um outro diretório, basta adcionar um novo acessando a opção **browse**.
 
-<img src="img/img07.png" alt="Image 07" height="360" width="700" />
+![Foto Configuração Projeto](img/img07.png)
 
 Clique em **Next**, na próxima janela e preencha os dados do projeto Maven:
 
-<img src="img/img08.png" alt="Image 08" height="360" width="700" />
+![Foto Informações Maven Credenciais](img/img08.png)
 
 Finalizado a inserção dos dados clique em **Finish**.
 
@@ -66,13 +65,11 @@ Pronto, o projeto foi criado, agora precisamos fazer algumas configurações.
 
 Primeiramente clique com o botão direito do mouse em cima do projeto e em seguida clique em **Properties**.
 
-
-<img src="img/img10.png" alt="Image 08" height="360" width="700" />
-
+![Foto Propriedades Projeto](img/img10.png)
 
 Configure o JavaServer Faces clicando em  **Project Facets** e habilite os campos **Dynamic Web Module**, **Java**, **JavaScript** e **JavaServer Faces**.
 
-<img src="img/img11.png" alt="Image 08" height="360" width="700" />
+![Foto JavaServer Face](img/img11.png)
 
 Configurado , finalize as configurações clicando  em **Apply** em seguida em **Ok**.
 
@@ -255,18 +252,22 @@ Vamos criar uma página xhtml no diretório webapp, vamos nomeá-la de olaPrimeF
 
 ```
 Pronto já temos nossa página, vamos agora  execute os Comandos **Maven Clean** e **Maven Install** respectivamente.
-<img src="img/img19.png" alt="Image 08" height="360" width="700" />
 
-<img src="img/img20.png" alt="Image 08" height="360" width="700" />
+![Foto Maven Cleann](img/img19.png)
+
+![Foto Maven Install](img/img20.png)
 
 Após ter feito isso, execute o Arquivo olaPrimeFaces.xhtml
 
-<img src="img/img21.png" alt="Image 08" height="360" width="700" />
+![Foto Executar Projeto](img/img21.png)
 
 O link gerado neste exemplo foi o http://localhost:8080/RdiProject/olaPrimeFaces.xhtml
+
+![Foto Projeto](img/img22.png)
+
 **Obs** caso o nome das pastas do seu projeto seja diferente, o link localhost:8080 permacerá o mesmo apenas com a mudança no nome das pastas.
 
-É isso, seu projeto está pronto.
+É isso, as dependências e as configurações do seu projeto estão prontas! Dirvita-se :alien:
 
 
 <!-- * ## Visual Studio Code
