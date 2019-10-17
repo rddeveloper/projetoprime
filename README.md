@@ -1,8 +1,11 @@
  # Criar Projeto Java EE + JSF + Primefaces + Maven
 ## Introdução
- > por: Roberto Danilo de Sousa Amoras às 20:20hs - 06/10/2019 - 22 anos, Desenvolvedor Junior, apaixonado por técnologias, entusiasta por querer aprender e inovar, e sim o futuro deste planeta vão pertencer às Skynets caso não tenhamos cuidados em conduzir e  treinar as inteligências artificiais. 
+ > por: Roberto Danilo de Sousa Amoras às 20:20hs - 06/10/2019 - 22 anos, Desenvolvedor Junior, apaixonado por técnologias, entusiasta por querer aprender e inovar, e sim o futuro deste planeta vão pertencer às Skynets caso não tenhamos cuidados em conduzir e  treinar as inteligências artificiais.
 
- Aprenda a criar um projeto simples do zero com os seguintes passos aplicados nesse tutorial elaborado por mim e pelo desenvolvedor **Igor Felipe Catro**. <br/>
+ > por: [Igor Felipe Mendes Castro](https://github.com/f-castro) às 16/10/2019 - 25 anos, Especialista em Redes, fã de tecnologias, principalmentes a área de redes. 
+
+ Aprenda a criar um projeto simples do zero com os seguintes passos aplicados nesse tutorial.
+ 
  **Obs:** Antes de começar o tutorial, primeiramente sua máquina deve estar com o java instalado, com a sua variável Path configurada com o devido sistema operacional, uma IDE que neste tutorial vamos utilizar o Eclipse e o Tomcat 7 confgurado com o Eclipse e sim, relaxa, beba uma água que vamos explicar como configurar tanto no sistema operacional Windows quanto no Linux. 
 
 ## Configuração Windows
