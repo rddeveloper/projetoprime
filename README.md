@@ -5,7 +5,7 @@
  > por: [Igor Felipe Mendes Castro](https://github.com/f-castro) às 16/10/2019 - 25 anos, Especialista em Redes, fã de tecnologias, principalmentes a área de redes. 
 
  Aprenda a criar um projeto simples do zero com os seguintes passos aplicados nesse tutorial.
- 
+
  **Obs:** Antes de começar o tutorial, primeiramente sua máquina deve estar com o java instalado, com a sua variável Path configurada com o devido sistema operacional, uma IDE que neste tutorial vamos utilizar o Eclipse e o Tomcat 7 confgurado com o Eclipse e sim, relaxa, beba uma água que vamos explicar como configurar tanto no sistema operacional Windows quanto no Linux. 
 
 ## Configuração Windows
@@ -272,7 +272,7 @@ O link gerado neste exemplo foi o http://localhost:8080/RdiProject/olaPrimeFaces
 
 **Obs** caso o nome das pastas do seu projeto seja diferente, o link localhost:8080 permacerá o mesmo apenas com a mudança no nome das pastas.
 
-É isso, as dependências e as configurações do seu projeto estão prontas! Dirvita-se :alien:
+É isso, as dependências e as configurações do seu projeto estão prontas! Divirta-se :alien:
 
 
 <!-- * ## Visual Studio Code
