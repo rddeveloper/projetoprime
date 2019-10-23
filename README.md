@@ -37,7 +37,13 @@ Utilizando o Linux Mint, baseada em Ubuntu para poder instalar o Java 8, primeir
 
 Primeiramente você precisa baixar o [Eclipse EE](https://www.eclipse.org/mars/) de acordo com o seu sistema operacional e instale na sua máquina.
 
-Agora configure o [TomCat 7](http://tomcat.apache.org/) no eclipse: Vá em **new** e **Server**: 
+Caso você precise instalar o Eclipse no sistema operacional baseado no Linux(neste caso Linux Mint 19), acesse esse [Tutorial](https://www.itzgeek.com/how-tos/linux/linux-mint-how-tos/how-to-install-eclipse-ide-on-linux-mint-19.html). 
+
+Agora configure o [TomCat 7](http://tomcat.apache.org/) no eclipse: 
+
+Caso seu sistema Operacional seja baseado no Ubuntu, execute o comando **apt-get install tomcat**. Entretanto se for windows, baixe o executável e instale na sua máquina.
+
+Com o Tomcat instalado, vá para o eclipse, **New**, **Other** e  **Server**: 
 
 ![Foto Tom Cat](img/img16.png)
 
