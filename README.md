@@ -56,7 +56,7 @@ Feito isso, crie um novo projeto Maven, vá para aba **File** ou **Alt+Shift+N**
 
 Na janela seguinte selecione as seguintes opções: **Create a simple project(Skip archetype selec)** e **Use default workspace location**.
 
-**Obs:** caso queira armazenar o projeto em um outro diretório, basta adcionar um novo acessando a opção **browse**.
+**Obs:** caso queira armazenar o projeto em um outro diretório, basta adicionar um novo acessando a opção **browse**.
 
 ![Foto Configuração Projeto](img/img07.png)
 
@@ -80,7 +80,7 @@ Configurado , finalize as configurações clicando  em **Apply** em seguida em *
 
 Pronto, o projeto web esta configurando no eclipse.
 
-Agora vamos inserir as dependências necessárias do projeto maven no arquivo **pom.xml**. Vamos precisar das dependências do JEE e do Primefaces.
+Agora vamos inserir as dependências necessárias do projeto maven no arquivo **pom.xml**. Vamos precisar das dependências do JSF e do Primefaces.
 
 Dependência JSF:
 
